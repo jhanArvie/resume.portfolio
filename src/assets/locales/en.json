@@ -11,11 +11,10 @@
         "media": "Media"
     },
     "skills": {
-        "language": "Languages",
-        "database": "Databases",
-        "other": "Other",
-        "tool": "Tools",
-        "framework": "Frameworks"
+        "cybersecurity": "Cybersecurity & Governance",
+        "programming": "Programming & Development",
+        "databases": "Databases & Systems",
+        "tools": "Tools"
     },
     "projects": {
         "chertnodes": {
@@ -100,7 +99,7 @@
             },
             "contacts": {
                 "title": "contacts",
-                "text": "I’m interested in networking and professional opportunities. However, if you have other request or question, don’t hesitate to contact me",
+                "text": "Let’s connect! I’m eager to grow professionally and feel free to contact me for other requests",
                 "media": "Message me here",
                 "donate": "Donate me here"
             }

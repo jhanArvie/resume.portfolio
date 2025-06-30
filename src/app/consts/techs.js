@@ -1,36 +1,27 @@
 export default {
-    ts: "TypeScript",
-    js: "JavaScript",
+    // Cybersecurity & Governance
+    assets: "Assets & Control Management",
+    risks: "Risks & Vulnerabilities Assessment",
+    incident: "Incident Reporting & Documentation",
+    network: "Network Fundamentals",
+    nist: "NIST CSF 2.0",
+    
+    // Programming & Development
     python: "Python",
-    sqlite: "SQLite",
-    mongo: "MongoDB",
-    postgreSql: "PostgreSQL",
+    js: "JavaScript",
     html: "HTML",
     css: "CSS",
-    sass: "SASS",
-    scss: "SCSS",
-    less: "Less",
-    stylus: "Stylus",
-    ejs: "EJS",
-    jinja: "Jinja2",
-    node: "Node.js",
-    vscode: "VSCode",
-    nvim: "NeoVim",
+    tailwind: "Tailwind CSS",
+    
+    // Databases & Systems
+    sql: "SQL",
+    linux: "Linux (OS/Command Line)",
+    
+    // Tools
+    vscode: "VS Code (IDE)",
+    windsurf: "Windsurf",
     figma: "Figma",
-    git: "Git & GitHub",
-    xfce: "XFCE",
-    react: "React",
-    discordJs: "Discord.js",
-    flask: "Flask",
-    quart: "Quart",
-    express: "Express",
-    rtk: "RTK",
-    zod: "Zod",
-    webpack: "WebPack",
-    pug: "Pug",
-    gulp: "Gulp",
-    next: "Next",
-    deno: "Deno",
-    pixijs: "PixiJS",
-    preact: "Preact",
+    git: "Git/GitHub",
+    wireshark: "Wireshark",
+    splunk: "Splunk"
 }

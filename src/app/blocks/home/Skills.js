@@ -14,13 +14,12 @@ export default (t, t2) => {
                 </div>
                 <div class="skills__list">
                     ${Object.keys(skills)
-                        .filter(id => id !== "tool")
+                        .filter(id => id !== "tools")
                         .map((id) => SkillBlock({ id }, t2))
                         .join("")}
+                    ${SkillBlock({ id: "tools" }, t2)}
                 </div>
-
             </div>
-
         </sections>
     `;
 };
