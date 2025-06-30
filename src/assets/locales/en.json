@@ -6,8 +6,8 @@
         "contacts": "contacts"
     },
     "footer": {
-        "description": "Web designer and front-end developer based in Ukraine",
-        "copyright": "Copyright 2023. Made by Elias",
+        "description": "Business and technology enthusiast based in Norway",
+        "copyright": "Copyright 2025. Made by Jhan Arvie",
         "media": "Media"
     },
     "skills": {
@@ -74,14 +74,14 @@
     "pages": {
         "home": {
             "hero": {
-                "title": "Elias is a <span>web designer</span> and <span>front-end</span> developer",
-                "description": "He crafts responsive websites where technologies meet creativity",
+                "title": "Jhan Arvie is an aspiring<span> Cybersecurity Enthusiast</span> and <span>Front-End Developer</span>",
+                "description": "Passionate about learning new security and development practices",
                 "button": "Contact ME",
-                "status": "Open for new opportunities"
+                "status": "Current Project: This Portfolio"
             },
             "quote": {
-                "text": "With great power comes great electricity bill",
-                "author": "Dr. Who"
+                "text": "Just because something works, doesn’t mean it can't be improved.",
+                "author": "Shuri, 'Black Panther'"
             },
             "projects": {
                 "title": "projects",
@@ -93,14 +93,14 @@
             "about": {
                 "title": "about",
                 "description": [
-                    "I’m a self-taught front-end developer based in Warsaw, Poland. I can develop responsive websites from scratch and raise them into modern user-friendly web experiences. ",
-                    "Transforming my creativity and knowledge into a websites has been my passion for over two years. I have been helping various clients to establish their presence online. I always strive to learn about the newest technologies and frameworks."
+                    "I am an active learner in cybersecurity, originally from the Philippines and now based in Norway, with a focus on Governance, Risk, and Compliance (GRC). My experience with data analysis, front-end development, and tools like Splunk and Python has given me a strong foundation to explore security solutions.",
+                    "Applying my technical and practical knowledge to continue grow in Business and Technology. Through my studies at Gokstad Akademiet, I'm building the expertise to help organizations develop secure and compliant systems. Every challenge is an opportunity to grow in this ever-evolving field."
                 ],
                 "button": "View all"
             },
             "contacts": {
                 "title": "contacts",
-                "text": "I’m interested in freelance opportunities. However, if you have other request or question, don’t hesitate to contact me",
+                "text": "I’m interested in networking and professional opportunities. However, if you have other request or question, don’t hesitate to contact me",
                 "media": "Message me here",
                 "donate": "Donate me here"
             }
@@ -115,8 +115,8 @@
             "description": "Who am i",
             "about": {
                 "description": [
-                    "I’m a self-taught front-end developer based in Warsaw, Poland. I can develop responsive websites from scratch and raise them into modern user-friendly web experiences. ",
-                    "Transforming my creativity and knowledge into a websites has been my passion for over a two years. I have been helping various clients to establish their presence online. ",
+                    "I am an active learner in cybersecurity, originally from the Philippines and now based in Norway, with a focus on Governance, Risk, and Compliance (GRC). My experience with data analysis, front-end development, and tools like Splunk and Python has given me a strong foundation to explore security solutions.",
+                    "Applying my technical and practical knowledge to continue grow in Business and Technology. Through my studies at Gokstad Akademiet, I'm building the expertise to help organizations develop secure and compliant systems. Every challenge is an opportunity to grow in this ever-evolving field.",
                     "I always strive to learn about the newest technologies and frameworks. "
                 ]
             },
@@ -126,10 +126,10 @@
             "facts": {
                 "title": "fun-facts",
                 "list": [
-                    "I like winter more than summer", 
-                    "I often bike with my friends",
-                    "I like pizza and pasta", 
-                    "My favorite movie is The Green Mile"
+                    "I enjoy fishing in summer", 
+                    "My personality type is ISFJ (The Protector)",
+                    "I love the taste of Coffee + Fried Rice", 
+                    "I enjoy stories/movies about TIME. I suggest 'DARK by Baran bo Odar'."
                 ]
             }
         },

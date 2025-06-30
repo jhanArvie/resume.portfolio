@@ -2,24 +2,14 @@ import proxy from "../proxies/media"
 
 const media = {
     discord: {
-        id: "914240860101681163",
-        tag: "elias.dev.",
+        id: "1214346508619485234",
+        tag: "arvie.there",
     },
-    stackOverflow: {
-        id: "19758208",
-        name: "elias",
-    },
-    github: "EliasDevis",
-    figma: "elias_dev",
-    replit: "EliasDev",
-    codewars: "EliasDevis",
-    devTo: "eliasdevis",
-    cssBattle: "elias_dev",
-    codepen: "elias_dev",
-    dribble: "Elias_dev",
-    email: "elias.devis@protonmail.com"
+    github: "jhanArvie",
+    figma: "jhanarvieboniel",
+    linkedin: "jhan-arvie-boniel",
+    email: "jhanarvie@gmail.com"
 
 }
 
 export default new Proxy(media, proxy);
-
