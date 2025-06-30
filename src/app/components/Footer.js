@@ -9,8 +9,8 @@ export default (t) => {
                     <div class="footer__info">
                         <div class="footer__header">
                             <div class="logo">
-                                <img src="/images/logo.svg" alt="logo" class="logo__img">
-                                <div class="logo__name">Elias</div>
+                                <img src="/images/my_logo.svg" alt="Jhan Arvie logo" class="logo__img">
+                                <div class="logo__name">Jhan Arvie</div>
                             </div>
                             <a class="footer__email" href="${media.email}">${media.emailRaw}</a>
                         </div>
@@ -26,7 +26,7 @@ export default (t) => {
                         </div>
                     </div>
                 </div>
-                <div class="footer__copyright">© ${t.copyright}</div>
+                <div class="footer__copyright"> ${t.copyright}</div>
             </div>
 
         </footer>

@@ -1,0 +1,15 @@
+<svg width="11" height="21" viewBox="0 0 11 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+<mask id="mask0_2509_1462" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="-2" y="5" width="13" height="12">
+<mask id="mask1_2509_1462" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="-2" y="4" width="13" height="13">
+<path d="M10.2013 4.912V12.008C10.2013 12.6533 10.1026 13.2373 9.90529 13.76C9.70795 14.2827 9.41729 14.728 9.03329 15.096C8.65462 15.464 8.18795 15.7467 7.63329 15.944C7.08395 16.1413 6.45462 16.24 5.74529 16.24C5.03062 16.24 4.41195 16.1493 3.88929 15.968C3.37195 15.7813 2.87329 15.5253 2.39329 15.2L3.39329 13.584C3.77195 13.8453 4.12662 14.0293 4.45729 14.136C4.78795 14.2373 5.16395 14.288 5.58529 14.288C6.15595 14.288 6.63062 14.1067 7.00929 13.744C7.39329 13.376 7.58529 12.808 7.58529 12.04V6.832H4.17729V4.912H10.2013Z" fill="white"/>
+<path d="M2 10L8 10" stroke="white" stroke-width="2"/>
+<path d="M5.53845 5L-9.65595e-06 14" stroke="white" stroke-width="2.5"/>
+</mask>
+<g mask="url(#mask1_2509_1462)">
+<path d="M11.1538 18H-2.84619V5H11.1538V18Z" fill="white"/>
+</g>
+</mask>
+<g mask="url(#mask0_2509_1462)">
+<circle cx="5.5" cy="10.5" r="5.5" fill="#D9D9D9"/>
+</g>
+</svg>

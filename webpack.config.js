@@ -17,6 +17,20 @@ module.exports = {
         chunkFilename: "js/[chunkhash].js"
     },
     mode: "development",
+    devServer: {
+        static: {
+            directory: resolve(__dirname, "dist"),
+        },
+        compress: true,
+        port: 8080,
+        hot: true,
+        open: true,
+        historyApiFallback: {
+            rewrites: [
+                { from: /./, to: "/404.html" },
+            ],
+        }
+    },
     plugins: [
         new plugins.html({
             template: "src/templates/index.ejs",
@@ -88,18 +102,6 @@ module.exports = {
             },
         ],
     },
-    devServer: {
-        static: {
-            directory: join(__dirname, 'dist'),
-        },
-        port: 9000,
-        historyApiFallback: {
-            rewrites: [
-                { from: /./, to: "/404.html" },
-            ],
-        }
-    },
-
     resolve: {
         alias: {
             "@": resolve(__dirname, "src/app/"),
