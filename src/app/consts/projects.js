@@ -108,7 +108,7 @@ const projects = [
         hasImage: true  
     },
     {
-        id: "naturepassion",
+        id: "nature-passion",
         isSmall: true,
         techs: ["figma"],
         links: {
