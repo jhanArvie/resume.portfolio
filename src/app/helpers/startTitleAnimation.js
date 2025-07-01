@@ -1,4 +1,3 @@
-
 const steps = "/-\\|";
 const FPS = 2
 const frameInterval = 1000 / FPS;
@@ -11,7 +10,7 @@ export default (pathName) => {
 
     function animation(timestamp) {
         if (lastTimestep + frameInterval < timestamp) {
-            document.title = `${steps[step++]} Elias | ${pathName}`;
+            document.title = `${steps[step++]} Jhan Arvie | ${pathName}`;
 
             step %= steps.length;
             lastTimestep = timestamp;
