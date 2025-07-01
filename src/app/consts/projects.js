@@ -74,22 +74,38 @@ const projects = [
         },
         hasImage: true,
     },
-
     {
-        id: "discordbot",
-        techs: ["ts", "discordJs", "node"],
+        id: "poemtales",
+        isSmall: true,  
+        techs: ["html", "css", "js", "figma"],
         links: {
-            github: "/bot-template",
+            github: "jhanArvie/FED1-PE1-jhanArvie-1",
+            live: "poemtales.netlify.app",
+            figma: "udV9skXSCpGCU8uE6dmsHO/Project-Exam-Blog-Post"
         },
-        isSmall: true,
+        hasImage: true  
     },
     {
-        id: "chesspro",
-        techs: ["figma"],
+        id: "rainydays",
+        isSmall: true,  
+        techs: ["html", "css", "js", "figma"],
         links: {
-            figma: "1148344443083977909",
+            github: "jhanArvie/rainy-days-v2",
+            live: "jhanarvie.github.io/rainy-days-v2",
+            figma: "UEbpcl1lDvc9wjveayDM32/Rainy-Days"
         },
-        isSmall: true,
+        hasImage: true  
+    },
+    {
+        id: "science-museum",
+        isSmall: true,  
+        techs: ["html", "css", "js", "figma"],
+        links: {
+            github: "jhanArvie/community_science_museum",
+            live: "jhanarvie.github.io/community_science_museum",
+            figma: "0N9TUpWUpJjDHx4zqRzFDH/Museum"
+        },
+        hasImage: true  
     },
     {
         id: "madhost",

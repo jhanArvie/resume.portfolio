@@ -17,6 +17,21 @@
         "tools": "Tools"
     },
     "projects": {
+        "decent": "Cybersecurity Projects",
+        "small": "Front-end Projects",
+        "inProgress": "In Progress",
+        "poemtales": {
+            "name": "Poemtales",
+            "description": "A collection of poems and poetic stories for readers to explore and enjoy."
+        },
+        "rainydays": {
+            "name": "Rainydays",
+            "description": "E-commerce website designed to sell high-quality rain jackets."
+        },
+        "science-museum": {
+            "name": "Community Science Museum",
+            "description": "Interactive website for a community science museum."
+        },
         "chertnodes": {
             "name": "ChertNodes",
             "description": "Minecraft servers hosting"
@@ -40,14 +55,6 @@
         "blog": {
             "name": "My blog",
             "description": "Front-end of my future blog website"
-        },
-        "discordbot": {
-            "name": "Discord Bot Boilerplate",
-            "description": "Start creating scalable discord.js bot with typescript in seconds"
-        },
-        "chesspro": {
-            "name": "Chess PRO",
-            "description": "Landing page about service for viewing chess tournaments"
         },
         "ooku": {
             "name": "Ooku",
@@ -79,7 +86,7 @@
                 "status": "Current Project: This Portfolio"
             },
             "quote": {
-                "text": "Just because something works, doesn’t mean it can't be improved.",
+                "text": "Just because something works, doesn't mean it can't be improved.",
                 "author": "Shuri, 'Black Panther'"
             },
             "projects": {
@@ -99,16 +106,16 @@
             },
             "contacts": {
                 "title": "contacts",
-                "text": "Let’s connect! I’m eager to grow professionally and feel free to contact me for other requests",
+                "text": "Let's connect! I'm eager to grow professionally and feel free to contact me for other requests",
                 "media": "Message me here",
                 "donate": "Donate me here"
             }
         },
         "projects": {
             "description": "All of my projects",
-            "decent": "decent",
-            "small": "small",
-            "inProgress": "unfinished"
+            "decent": "Cybersecurity Projects",
+            "small": "Front-end Projects",
+            "inProgress": "In Progress"
         },
         "about": {
             "description": "Who am i",
