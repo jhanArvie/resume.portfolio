@@ -33,10 +33,11 @@ module.exports = {
     },
     plugins: [
         new plugins.html({
-            template: "src/templates/index.ejs",
+            template: "./src/templates/index.ejs",
             filename: "index.html",
-            excludeChunks: ["spaHandler"],
-            title: "Elias Portfolio",
+            title: "Jhan Arvie | Portfolio",
+            chunks: ["index"],
+            minify: true,
             'meta': {
                 'viewport': 'width=device-width, initial-scale=1, shrink-to-fit=no',
                 'theme-color': '#C778DD',
