@@ -75,6 +75,10 @@
         "pixel-battle": {
             "name": "Pixel Battle",
             "description": "Pixel art battle game"
+        },
+        "naturepassion": {
+            "name": "Nature Passion",
+            "description": "E-commerce website for nature inspired bracelets."
         }
     },
     "pages": {

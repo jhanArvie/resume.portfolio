@@ -108,6 +108,15 @@ const projects = [
         hasImage: true  
     },
     {
+        id: "naturepassion",
+        isSmall: true,
+        techs: ["figma"],
+        links: {
+            figma: "https://www.figma.com/design/qefogBMXpcnETDlhkx6TBb/Nature-Passion?node-id=25-7&t=DXIgjn0aKhybZYz4-1"
+        },
+        hasImage: true
+    },
+    {
         id: "madhost",
         techs: ["pug", "less", "gulp", "node"],
         links: {
