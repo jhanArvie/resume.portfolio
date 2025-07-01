@@ -1,7 +1,7 @@
 {
     "header": {
         "home": "home",
-        "projects": "projects",
+        "projects": "projects & research",
         "about": "about-me",
         "contacts": "contacts"
     },
@@ -17,8 +17,8 @@
         "tools": "Tools"
     },
     "projects": {
-        "decent": "Cybersecurity Projects",
-        "small": "Front-end Projects",
+        "decent": "Cybersecurity",
+        "small": "Front-end",
         "inProgress": "In Progress",
         "poemtales": {
             "name": "Poemtales",
@@ -113,8 +113,8 @@
         },
         "projects": {
             "description": "All of my projects",
-            "decent": "Cybersecurity Projects",
-            "small": "Front-end Projects",
+            "decent": "Cybersecurity",
+            "small": "Front-end",
             "inProgress": "In Progress"
         },
         "about": {

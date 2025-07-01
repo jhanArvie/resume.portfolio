@@ -5,7 +5,7 @@ const projects = [
     {
         id: "deplos",
         links: {
-            figma: "1198393124994627983",
+            figma: "https://www.figma.com/file/1198393124994627983",
             live: "deplos.github.io",
             github: "Deplos/deplos.github.io"
         },
@@ -25,7 +25,7 @@ const projects = [
         id: "feedrum",
         links: {
             github: "Feedrum-Project/feedrum-next",
-            figma: "1314605686829534158"
+            figma: "https://www.figma.com/file/1314605686829534158"
         },
         techs: ["node", "next", "react", "zod"],
         hasImage: true,
@@ -33,7 +33,7 @@ const projects = [
     {
         id: "chertnodes",
         links: {
-            figma: "1149829028455305659",
+            figma: "https://www.figma.com/file/1149829028455305659",
         },
         techs: ["python", "flask", "scss"],
         hasImage: true,
@@ -42,7 +42,7 @@ const projects = [
         id: "protectx",
         techs: ["react", "node", "discordJs"],
         links: {
-            figma: "1168662007492356291",
+            figma: "https://www.figma.com/file/1168662007492356291",
         },
         hasImage: true,
     },
@@ -68,7 +68,7 @@ const projects = [
         id: "portfolio",
         techs: ["js", "sass", "webpack"],
         links: {
-            figma: "1164933568884615740",
+            figma: "https://www.figma.com/file/1164933568884615740",
             github: "/EliasDevis.github.io",
             live: "eliasdevis.github.io"
         },
@@ -81,7 +81,7 @@ const projects = [
         links: {
             github: "jhanArvie/FED1-PE1-jhanArvie-1",
             live: "poemtales.netlify.app",
-            figma: "udV9skXSCpGCU8uE6dmsHO/Project-Exam-Blog-Post"
+            figma: "https://www.figma.com/design/udV9skXSCpGCU8uE6dmsHO/Project-Exam-Blog-Post"
         },
         hasImage: true  
     },
@@ -92,7 +92,7 @@ const projects = [
         links: {
             github: "jhanArvie/rainy-days-v2",
             live: "jhanarvie.github.io/rainy-days-v2",
-            figma: "UEbpcl1lDvc9wjveayDM32/Rainy-Days"
+            figma: "https://www.figma.com/design/UEbpcl1lDvc9wjveayDM32/Rainy-Days"
         },
         hasImage: true  
     },
@@ -103,7 +103,7 @@ const projects = [
         links: {
             github: "jhanArvie/community_science_museum",
             live: "jhanarvie.github.io/community_science_museum",
-            figma: "0N9TUpWUpJjDHx4zqRzFDH/Museum"
+            figma: "https://www.figma.com/design/0N9TUpWUpJjDHx4zqRzFDH/Museum"
         },
         hasImage: true  
     },

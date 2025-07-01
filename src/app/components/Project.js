@@ -5,12 +5,22 @@ import media from "@/consts/media";
 
 function mapLinks(links) {
     function map(link) {
-        let href =
-        "https://" + (link === "live" ? "" : websites[link]) + links[link];
-
-        if (link === "figma") href = `https://figma.com/community/file/${links[link]}`
-        if (link === "github" && links[link].startsWith("/")) href = media.github + links[link]
-
+        let href = "";
+        
+        if (link === "figma") {
+            // If it's already a full URL, use it as-is
+            if (links[link].startsWith("http")) {
+                href = links[link];
+            } else {
+                // Otherwise, construct the community file URL
+                href = `https://figma.com/community/file/${links[link]}`;
+            }
+        } else if (link === "github" && links[link].startsWith("/")) {
+            href = media.github + links[link];
+        } else {
+            // Default case for other links
+            href = "https://" + (link === "live" ? "" : websites[link]) + links[link];
+        }
 
         const className = link === "cached" ? "button__secondary" : "";
         const name = `${link[0].toUpperCase()}${link.slice(1)}`;
