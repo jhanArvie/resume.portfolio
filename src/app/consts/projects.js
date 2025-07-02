@@ -124,6 +124,15 @@ const projects = [
         },
         hasImage: true,
     },
+    {
+        id: "webservices",
+        isSmall: true,
+        techs: ["html", "css", "js", "tailwind"],
+        links: {
+            live: "webplusservices.netlify.app/#home"
+        },
+        hasImage: true
+    },
 ];
 
 export default projects;

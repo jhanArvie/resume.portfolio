@@ -79,6 +79,10 @@
         "nature-passion": {
             "name": "Nature Passion",
             "description": "E-commerce website for nature inspired bracelets."
+        },
+        "webservices": {
+            "name": "Web+Services",
+            "description": "Business website offering professional web development"
         }
     },
     "pages": {
@@ -87,7 +91,8 @@
                 "title": "Jhan Arvie is an aspiring<span> Cybersecurity Enthusiast</span> and <span>Front-End Developer</span>",
                 "description": "Passionate about learning new security and development practices",
                 "button": "Contact ME",
-                "status": "Current Project: This Portfolio"
+                "status": "Currently: Working on my portfolio and for a Security+ Certification"
+               
             },
             "quote": {
                 "text": "Just because something works, doesn't mean it can't be improved.",
