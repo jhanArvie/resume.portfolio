@@ -7,6 +7,11 @@ function mapLinks(links) {
     function map(link) {
         let href = "";
         
+        // Handle directory links (Google Drive)
+        if (link === "directory") {
+            return /*html*/ `<a href="${links[link]}" class="button" target="_blank" rel="noopener noreferrer">Directory =></a>`;
+        }
+        
         if (link === "figma") {
             // If it's already a full URL, use it as-is
             if (links[link].startsWith("http")) {
@@ -19,13 +24,13 @@ function mapLinks(links) {
             href = media.github + links[link];
         } else {
             // Default case for other links
-            href = "https://" + (link === "live" ? "" : websites[link]) + links[link];
+            href = "https://" + (link === "live" ? "" : websites[link] || '') + links[link];
         }
 
         const className = link === "cached" ? "button__secondary" : "";
         const name = `${link[0].toUpperCase()}${link.slice(1)}`;
 
-        return /*html*/ `<a href="${href}" class="button ${className}">${name} =></a>`;
+        return /*html*/ `<a href="${href}" class="button ${className}" target="_blank" rel="noopener noreferrer">${name} =></a>`;
     }
 
     return Object.keys(links).map(map).join("");

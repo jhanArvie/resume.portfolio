@@ -20,6 +20,30 @@
         "decent": "Cybersecurity",
         "small": "Front-end",
         "inProgress": "In Progress",
+        "incident-response": {
+            "name": "Incident Journals & Reports",
+            "description": "Contains journals and reports from different cybersecurity events"
+        },
+        "risk-vulnerabilities": {
+            "name": "Risks & Vulnerabilities Assessment",
+            "description": "Findings from corporate risk and vulnerability evaluations"
+        },
+        "python-thumbnail": {
+            "name": "Python Documentation",
+            "description": "Python related documentations and resources"
+        },
+        "computer-networking": {
+            "name": "Network Fundamentals",
+            "description": "Computer networking documentations: protocols, network traffic, ports"
+        },
+        "linux-sql": {
+            "name": "Linux and SQL",
+            "description": "Comprehensive Guides for Linux and SQL"
+        },
+        "assets-control": {
+            "name": "Assets & Control Management",
+            "description": "Documentation and research on managing cybersecurity assets and controls"
+        },
         "poemtales": {
             "name": "Poemtales",
             "description": "A collection of poems and poetic stories for readers to explore and enjoy."

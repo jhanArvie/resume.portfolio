@@ -2,6 +2,55 @@
  * @type {import("../../types/Project").Project[]}
  */
 const projects = [
+    // Cybersecurity Projects
+    {
+        id: "incident-response",
+        techs: ["splunk", "wireshark", "incident", "tcpdump", "suricata"],
+        links: {
+            directory: "https://drive.google.com/drive/folders/1-IU_hEAxM1mA560dcE8ks6igdJ-XhTUt"
+        },
+        hasImage: true
+    },
+    {
+        id: "risk-vulnerabilities",
+        techs: ["risks"],
+        links: {
+            directory: "https://drive.google.com/drive/folders/1WBrA6Dmp2sGbkdsHj47HBIOWvOE9-FQ2"
+        },
+        hasImage: true
+    },
+    {
+        id: "python-thumbnail",
+        techs: ["python"],
+        links: {
+            directory: "https://drive.google.com/drive/folders/1otEbfNNVn7kvyW_AMUVylckg4Jqe4Fku"
+        },
+        hasImage: true
+    },
+    {
+        id: "computer-networking",
+        techs: ["network", "tcpdump"],
+        links: {
+            directory: "https://drive.google.com/drive/folders/1YmBOnKgoq1qRPqwhU-xFxKv5mBT7qgO2"
+        },
+        hasImage: true
+    },
+    {
+        id: "linux-sql",
+        techs: ["linux", "sql"],
+        links: {
+            directory: "https://drive.google.com/drive/folders/1K2T9DEJ33suJVNnvKm-OMh6MLeISCC8s"
+        },
+        hasImage: true
+    },
+    {
+        id: "assets-control",
+        techs: ["assets", "nist"],
+        links: {
+            directory: "https://drive.google.com/drive/folders/18WBZJwQ0lJnBwRwjvNJCD7XlSbzqvPJK"
+        },
+        hasImage: true
+    },
     {
         id: "deplos",
         links: {

@@ -5,6 +5,9 @@ export default {
     incident: "Incident Reporting & Documentation",
     network: "Network Fundamentals",
     nist: "NIST CSF 2.0",
+    tcpdump: "tcpdump",
+    virustotal: "VirusTotal",
+    suricata: "Suricata",
     
     // Programming & Development
     python: "Python",
