@@ -40,29 +40,29 @@
             "name": "Linux og SQL",
             "description": "Dokumentasjon om Linux og SQL-databaser"
         },
-        "system-administration": {
-            "name": "Systemadministrasjon",
-            "description": "Dokumentasjon om systemadministrasjon og drift"
+        "assets-control": {
+            "name": "Aktiva- og kontrollhåndtering",
+            "description": "Dokumentasjon og forskning om håndtering av cybersikkerhetsaktiva og -kontroller"
         },
-        "cybersecurity-documentation": {
-            "name": "Cybersikkerhet",
-            "description": "Dokumentasjon om cybersikkerhet og informasjonssikkerhet"
+        "poemtales": {
+            "name": "Poemtales",
+            "description": "En samling dikt og poetiske historier for lesere å utforske og nyte."
         },
-        "portfolio": {
-            "name": "Portefølje Nettside",
-            "description": "Min personlige porteføljenettsted bygget med HTML, CSS og JavaScript"
+        "rainydays": {
+            "name": "Regnfulle Dager",
+            "description": "En nettbutikk for regnklær og utendørsplagg"
         },
-        "ecommerce": {
-            "name": "Netthandel",
-            "description": "En enkel netthandel med handlekurvfunksjonalitet"
+        "science-museum": {
+            "name": "Vitenskapsmuseet",
+            "description": "Nettside for et lokalt vitenskapsmuseum"
         },
-        "weather-app": {
-            "name": "Værapplikasjon",
-            "description": "En applikasjon som viser værdata fra ulike steder"
+        "nature-passion": {
+            "name": "Naturen Lidenskap",
+            "description": "Designkonsept for en naturrelatert nettside"
         },
-        "task-manager": {
-            "name": "Oppgavebehandler",
-            "description": "En enkel applikasjon for å håndtere daglige oppgaver"
+        "webservices": {
+            "name": "Webtjenester",
+            "description": "Nettside for webutviklingstjenester"
         }
     },
     "about": {
