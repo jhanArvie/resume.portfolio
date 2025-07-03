@@ -39,10 +39,10 @@ export default (t) => {
                             .join("")}
                     </div>
                     <div class="dropdown">
-                        <span class="dropdown__label">en</span>
-
+                        <span class="dropdown__label">${localStorage.locale || 'en'}</span>
                         <div class="dropdown__list">
-                            <div class="dropdown__option">no</div>
+                            <div class="dropdown__option" data-lang="en">en</div>
+                            <div class="dropdown__option" data-lang="no">no</div>
                         </div>
                     </div>
 

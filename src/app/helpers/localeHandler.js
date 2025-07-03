@@ -1,41 +1,44 @@
-const defaultLocale = "en"
+const defaultLocale = "en";
+const supportedLocales = ["en", "no"];
 
 function setLocaleHander() {
     const options = document.querySelectorAll(".dropdown__option");
     const label = document.querySelector(".dropdown__label");
 
-    // Set default locale to English if not set
-    if (!["en", "no"].includes(localStorage.locale)) {
+    // Initialize locale if not set or invalid
+    if (!supportedLocales.includes(localStorage.locale)) {
         localStorage.locale = defaultLocale;
     }
 
-    // Update the current language display
-    if (localStorage.locale) {
-        label.textContent = localStorage.locale;
+    // Set the current language in the dropdown
+    if (label) {
+        label.textContent = localStorage.locale || defaultLocale;
     }
 
     options.forEach((option) => {
-        // Set the current language in the dropdown
-        if (option.textContent === localStorage.locale) {
-            [label.textContent, option.textContent] = [localStorage.locale, label.textContent];
-        }
-
-        option.addEventListener("click", () => {
-            localStorage.locale = option.textContent;
-            window.location.reload();
+        option.addEventListener("click", (e) => {
+            const lang = e.target.getAttribute('data-lang');
+            if (lang && lang !== localStorage.locale) {
+                localStorage.locale = lang;
+                window.location.reload();
+            }
         });
     });
 }
 
 async function getLocale() {
     const locale = localStorage.locale || defaultLocale;
-    return fetch(`/locales/${locale}.json`).then(res => {
-        if (!res.ok) {
-            // Fallback to English if the requested locale file doesn't exist
-            return fetch('/locales/en.json').then(r => r.json());
+    try {
+        const response = await fetch(`/locales/${locale}.json`);
+        if (!response.ok) {
+            throw new Error('Locale not found');
         }
-        return res.json();
-    });
+        return await response.json();
+    } catch (error) {
+        console.error(`Failed to load ${locale} locale, falling back to ${defaultLocale}`, error);
+        const response = await fetch(`/locales/${defaultLocale}.json`);
+        return await response.json();
+    }
 }
 
 export default setLocaleHander;

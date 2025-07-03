@@ -19,7 +19,51 @@
     "projects": {
         "decent": "Cybersikkerhet",
         "small": "Front-end",
-        "inProgress": "Pågår"
+        "inProgress": "Pågår",
+        "incident-response": {
+            "name": "Hendelseslogger og rapporter",
+            "description": "Inneholder logger og rapporter fra ulike cybersikkerhetshendelser"
+        },
+        "risk-vulnerabilities": {
+            "name": "Risiko- og sårbarhetsvurderinger",
+            "description": "Funn fra virksomhetens risiko- og sårbarhetsvurderinger"
+        },
+        "python-thumbnail": {
+            "name": "Python-dokumentasjon",
+            "description": "Python-relatert dokumentasjon og ressurser"
+        },
+        "computer-networking": {
+            "name": "Nettverksgrunnleggende",
+            "description": "Dokumentasjon om datanettverk: protokoller, nettverkstrafikk, porter"
+        },
+        "linux-sql": {
+            "name": "Linux og SQL",
+            "description": "Dokumentasjon om Linux og SQL-databaser"
+        },
+        "system-administration": {
+            "name": "Systemadministrasjon",
+            "description": "Dokumentasjon om systemadministrasjon og drift"
+        },
+        "cybersecurity-documentation": {
+            "name": "Cybersikkerhet",
+            "description": "Dokumentasjon om cybersikkerhet og informasjonssikkerhet"
+        },
+        "portfolio": {
+            "name": "Portefølje Nettside",
+            "description": "Min personlige porteføljenettsted bygget med HTML, CSS og JavaScript"
+        },
+        "ecommerce": {
+            "name": "Netthandel",
+            "description": "En enkel netthandel med handlekurvfunksjonalitet"
+        },
+        "weather-app": {
+            "name": "Værapplikasjon",
+            "description": "En applikasjon som viser værdata fra ulike steder"
+        },
+        "task-manager": {
+            "name": "Oppgavebehandler",
+            "description": "En enkel applikasjon for å håndtere daglige oppgaver"
+        }
     },
     "about": {
         "description": "Hvem er jeg",
@@ -60,6 +104,47 @@
             },
             "skills": {
                 "title": "ferdigheter"
+            },
+            "about": {
+                "title": "om",
+                "description": [
+                    "Jeg er en aktiv lærer innen cybersikkerhet, opprinnelig fra Filippinene og nå bosatt i Norge, med fokus på styring, risiko og overholdelse (GRC). Min erfaring med dataanalyse, frontend-utvikling og verktøy som Splunk og Python har gitt meg et solid grunnlag for å utforske sikkerhetsløsninger.",
+                    "Jeg bruker min tekniske og praktiske kunnskap for å fortsette å vokse innen forretning og teknologi. Gjennom studiene mine ved Gokstad Akademiet bygger jeg ekspertisen som trengs for å hjelpe organisasjoner med å utvikle sikre og overholdende systemer. Hver utfordring er en mulighet til å vokse i dette stadig utviklende feltet."
+                ],
+                "button": "Se alle"
+            },
+            "contacts": {
+                "title": "kontakter",
+                "text": "La oss koble til! Jeg er ivrig etter å vokse profesjonelt, og du er velkommen til å kontakte meg for andre forespørsler",
+                "media": "Send meg en melding her",
+                "donate": "Støtt meg her"
+            }
+        },
+        "projects": {
+            "description": "Alle mine prosjekter",
+            "decent": "Cybersikkerhet",
+            "small": "Front-end",
+            "inProgress": "Pågår"
+        },
+        "about": {
+            "description": "Hvem er jeg",
+            "about": {
+                "description": [
+                    "Jeg er en aktiv lærer innen cybersikkerhet, opprinnelig fra Filippinene og nå bosatt i Norge, med fokus på styring, risiko og overholdelse (GRC). Min erfaring med dataanalyse, frontend-utvikling og verktøy som Splunk og Python har gitt meg et solid grunnlag for å utforske sikkerhetsløsninger.",
+                    "Jeg bruker min tekniske og praktiske kunnskap for å fortsette å vokse innen forretning og teknologi. Gjennom studiene mine ved Gokstad Akademiet bygger jeg ekspertisen som trengs for å hjelpe organisasjoner med å utvikle sikre og overholdende systemer. Hver utfordring er en mulighet til å vokse i dette stadig utviklende feltet.",
+                    "Jeg streber alltid etter å lære om de nyeste teknologiene og rammeverkene."
+                ]
+            },
+            "skills": {
+                "title": "ferdigheter"
+            },
+            "facts": {
+                "title": "morsomme fakta",
+                "list": [
+                    "Jeg liker å fiske om sommeren",
+                    "Min personlighetstype er ISFJ (Beskytteren)",
+                    "Jeg elsker smaken av kaffe og stekt ris"
+                ]
             }
         }
     }
