@@ -42,8 +42,7 @@ export default (t) => {
                         <span class="dropdown__label">en</span>
 
                         <div class="dropdown__list">
-                            <div class="dropdown__option">ru</div>
-                            <div class="dropdown__option">ua</div>
+                            <div class="dropdown__option">no</div>
                         </div>
                     </div>
 

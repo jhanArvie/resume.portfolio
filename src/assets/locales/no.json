@@ -1,0 +1,66 @@
+{
+    "header": {
+        "home": "hjem",
+        "projects": "prosjekter & dokumentasjon",
+        "about": "om-meg",
+        "contacts": "kontakter"
+    },
+    "footer": {
+        "description": "Forretnings- og teknologientusiast basert i Norge",
+        "copyright": "Opphavsrett 2025. Laget av Jhan Arvie",
+        "media": "Medier"
+    },
+    "skills": {
+        "cybersecurity": "Cybersikkerhet & Styring",
+        "programming": "Programmering & Utvikling",
+        "databases": "Databaser & Systemer",
+        "tools": "Verktøy"
+    },
+    "projects": {
+        "decent": "Cybersikkerhet",
+        "small": "Front-end",
+        "inProgress": "Pågår"
+    },
+    "about": {
+        "description": "Hvem er jeg",
+        "about": {
+            "description": [
+                "Jeg er en aktiv lærer innen cybersikkerhet, opprinnelig fra Filippinene og nå bosatt i Norge, med fokus på styring, risiko og overholdelse (GRC). Min erfaring med dataanalyse, frontend-utvikling og verktøy som Splunk og Python har gitt meg et solid grunnlag for å utforske sikkerhetsløsninger.",
+                "Jeg bruker min tekniske og praktiske kunnskap for å fortsette å vokse innen forretning og teknologi. Gjennom studiene mine ved Gokstad Akademiet bygger jeg ekspertisen som trengs for å hjelpe organisasjoner med å utvikle sikre og overholdende systemer. Hver utfordring er en mulighet til å vokse i dette stadig utviklende feltet.",
+                "Jeg streber alltid etter å lære om de nyeste teknologiene og rammeverkene."
+            ]
+        },
+        "skills": {
+            "title": "ferdigheter"
+        },
+        "facts": {
+            "title": "morsomme fakta",
+            "list": [
+                "Jeg liker å fiske om sommeren",
+                "Min personlighetstype er ISFJ (Beskytteren)",
+                "Jeg elsker smaken av kaffe og stekt ris"
+            ]
+        }
+    },
+    "pages": {
+        "home": {
+            "hero": {
+                "title": "Jhan Arvie er en aspirerende<span> Cybersikkerhetsentusiast</span> og <span>Front-End Utvikler</span>",
+                "description": "Passionert for å lære nye sikkerhets- og utviklingspraksiser",
+                "button": "Kontakt meg",
+                "status": "For tiden: Jobber med porteføljen min og en Security+ sertifisering"
+            },
+            "quote": {
+                "text": "Selv når du hadde to øyne, så du bare halvparten av bildet.",
+                "author": "Odin, Thor: Ragnarok"
+            },
+            "projects": {
+                "title": "prosjekter",
+                "button": "Se alle"
+            },
+            "skills": {
+                "title": "ferdigheter"
+            }
+        }
+    }
+}
