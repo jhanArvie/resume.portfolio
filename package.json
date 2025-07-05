@@ -10,6 +10,7 @@
   "devDependencies": {
     "copy-webpack-plugin": "^11.0.0",
     "css-loader": "^6.7.2",
+    "gh-pages": "^6.3.0",
     "html-webpack-plugin": "^5.5.0",
     "json-minimizer-webpack-plugin": "^4.0.0",
     "mini-css-extract-plugin": "^2.7.2",
@@ -22,6 +23,8 @@
   },
   "scripts": {
     "build": "npx webpack",
-    "serve": "npx webpack serve"
+    "serve": "npx webpack serve",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   }
 }
