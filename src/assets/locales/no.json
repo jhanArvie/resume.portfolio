@@ -121,7 +121,7 @@
             }
         },
         "projects": {
-            "description": "Alle mine prosjekter",
+            "description": "Alle mine prosjekter og dokumentasjon",
             "decent": "Cybersikkerhet",
             "small": "Front-end",
             "inProgress": "Pågår"
