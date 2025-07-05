@@ -2,9 +2,10 @@
   "name": "portfolio",
   "version": "1.2.0",
   "main": "src/app/index.js",
+  "homepage": "https://jhanarvie.github.io",
   "author": {
     "name": "Jhan Arvie",
-    "url": "https://jhanArvie.github.io"
+    "url": "https://jhanarvie.github.io"
   },
   "license": "MIT",
   "devDependencies": {
