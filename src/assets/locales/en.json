@@ -1,139 +1,138 @@
 {
-    "header": {
-        "home": "home",
-        "projects": "projects & documentations",
-        "about": "about-me",
-        "contacts": "contacts"
+  "header": {
+    "home": "home",
+    "projects": "projects & documentations",
+    "about": "about-me",
+    "contacts": "contacts"
+  },
+  "footer": {
+    "description": "Business and technology enthusiast based in Norway",
+    "copyright": "Copyright 2025. Made by Jhan Arvie",
+    "media": "Media"
+  },
+  "skills": {
+    "cybersecurity": "Cybersecurity & Governance",
+    "programming": "Programming & Development",
+    "databases": "Databases & Systems",
+    "tools": "Tools"
+  },
+  "projects": {
+    "decent": "Cybersecurity",
+    "small": "Front-end",
+    "inProgress": "In Progress",
+    "incident-response": {
+      "name": "Incident Journals & Reports",
+      "description": "Contains journals and reports from different cybersecurity events"
     },
-    "footer": {
-        "description": "Business and technology enthusiast based in Norway",
-        "copyright": "Copyright 2025. Made by Jhan Arvie",
-        "media": "Media"
+    "risk-vulnerabilities": {
+      "name": "Risks & Vulnerabilities Assessment",
+      "description": "Findings from corporate risk and vulnerability evaluations"
     },
-    "skills": {
-        "cybersecurity": "Cybersecurity & Governance",
-        "programming": "Programming & Development",
-        "databases": "Databases & Systems",
-        "tools": "Tools"
+    "python-thumbnail": {
+      "name": "Python Documentation",
+      "description": "Python related documentations and resources"
+    },
+    "computer-networking": {
+      "name": "Network Fundamentals",
+      "description": "Computer networking documentations: protocols, network traffic, ports"
+    },
+    "linux-sql": {
+      "name": "Linux and SQL",
+      "description": "Comprehensive Guides for Linux and SQL"
+    },
+    "assets-control": {
+      "name": "Assets & Control Management",
+      "description": "Documentation and research on managing cybersecurity assets and controls"
+    },
+    "poemtales": {
+      "name": "Poemtales",
+      "description": "A collection of poems and poetic stories for readers to explore and enjoy."
+    },
+    "rainydays": {
+      "name": "Rainydays",
+      "description": "E-commerce website designed to sell high-quality rain jackets."
+    },
+    "science-museum": {
+      "name": "Community Science Museum",
+      "description": "Interactive website for a community science museum."
+    },
+    "portfolio": {
+      "name": "This Portfolio",
+      "description": "My personal portfolio"
+    },
+    "nature-passion": {
+      "name": "Nature Passion",
+      "description": "E-commerce website for nature inspired bracelets."
+    },
+    "webservices": {
+      "name": "Web+Services",
+      "description": "Business website offering professional web development"
+    }
+  },
+  "pages": {
+    "home": {
+      "hero": {
+        "title": "Jhan Arvie is an aspiring<span> Cybersecurity Enthusiast</span> and <span>Front-End Developer</span>",
+        "description": "Passionate about learning new security and development practices",
+        "button": "Contact ME",
+        "status": "preparing for Security+ certification."
+      },
+      "quote": {
+        "text": "Dormammu, I've come to bargain!",
+        "author": "Doctor Strange"
+      },
+      "projects": {
+        "title": "projects",
+        "button": "View all"
+      },
+      "skills": {
+        "title": "skills"
+      },
+      "about": {
+        "title": "about",
+        "description": [
+          "I am an active learner in cybersecurity, originally from the Philippines and now based in Norway, with a focus on Governance, Risk, and Compliance (GRC). My experience with data analysis, front-end development, and tools like Splunk and Python has given me a strong foundation to explore security solutions.",
+          "Applying my technical and practical knowledge to continue grow in Business and Technology. Through my studies at Gokstad Akademiet, I'm building the expertise to help organizations develop secure and compliant systems. Every challenge is an opportunity to grow in this ever-evolving field."
+        ],
+        "button": "View all"
+      },
+      "contacts": {
+        "title": "contacts",
+        "text": "Let's connect! I'm eager to grow professionally and feel free to contact me for other requests",
+        "media": "Message me here",
+        "donate": "Donate me here"
+      }
     },
     "projects": {
-        "decent": "Cybersecurity",
-        "small": "Front-end",
-        "inProgress": "In Progress",
-        "incident-response": {
-            "name": "Incident Journals & Reports",
-            "description": "Contains journals and reports from different cybersecurity events"
-        },
-        "risk-vulnerabilities": {
-            "name": "Risks & Vulnerabilities Assessment",
-            "description": "Findings from corporate risk and vulnerability evaluations"
-        },
-        "python-thumbnail": {
-            "name": "Python Documentation",
-            "description": "Python related documentations and resources"
-        },
-        "computer-networking": {
-            "name": "Network Fundamentals",
-            "description": "Computer networking documentations: protocols, network traffic, ports"
-        },
-        "linux-sql": {
-            "name": "Linux and SQL",
-            "description": "Comprehensive Guides for Linux and SQL"
-        },
-        "assets-control": {
-            "name": "Assets & Control Management",
-            "description": "Documentation and research on managing cybersecurity assets and controls"
-        },
-        "poemtales": {
-            "name": "Poemtales",
-            "description": "A collection of poems and poetic stories for readers to explore and enjoy."
-        },
-        "rainydays": {
-            "name": "Rainydays",
-            "description": "E-commerce website designed to sell high-quality rain jackets."
-        },
-        "science-museum": {
-            "name": "Community Science Museum",
-            "description": "Interactive website for a community science museum."
-        },
-        "portfolio": {
-            "name": "This Portfolio",
-            "description": "My personal portfolio"
-        },
-        "nature-passion": {
-            "name": "Nature Passion",
-            "description": "E-commerce website for nature inspired bracelets."
-        },
-        "webservices": {
-            "name": "Web+Services",
-            "description": "Business website offering professional web development"
-        }
+      "description": "All of my projects",
+      "decent": "Cybersecurity",
+      "small": "Front-end",
+      "inProgress": "In Progress"
     },
-    "pages": {
-        "home": {
-            "hero": {
-                "title": "Jhan Arvie is an aspiring<span> Cybersecurity Enthusiast</span> and <span>Front-End Developer</span>",
-                "description": "Passionate about learning new security and development practices",
-                "button": "Contact ME",
-                "status": "Currently: Working on my portfolio and for a Security+ Certification"
-               
-            },
-            "quote": {
-                "text": "Even when you had two eyes, you’d see only half the picture.",
-                "author": "Odin, Thor: Ragnarok"
-            },
-            "projects": {
-                "title": "projects",
-                "button": "View all"
-            },
-            "skills": {
-                "title": "skills"
-            },
-            "about": {
-                "title": "about",
-                "description": [
-                    "I am an active learner in cybersecurity, originally from the Philippines and now based in Norway, with a focus on Governance, Risk, and Compliance (GRC). My experience with data analysis, front-end development, and tools like Splunk and Python has given me a strong foundation to explore security solutions.",
-                    "Applying my technical and practical knowledge to continue grow in Business and Technology. Through my studies at Gokstad Akademiet, I'm building the expertise to help organizations develop secure and compliant systems. Every challenge is an opportunity to grow in this ever-evolving field."
-                ],
-                "button": "View all"
-            },
-            "contacts": {
-                "title": "contacts",
-                "text": "Let's connect! I'm eager to grow professionally and feel free to contact me for other requests",
-                "media": "Message me here",
-                "donate": "Donate me here"
-            }
-        },
-        "projects": {
-            "description": "All of my projects",
-            "decent": "Cybersecurity",
-            "small": "Front-end",
-            "inProgress": "In Progress"
-        },
-        "about": {
-            "description": "Who am i",
-            "about": {
-                "description": [
-                    "I am an active learner in cybersecurity, originally from the Philippines and now based in Norway, with a focus on Governance, Risk, and Compliance (GRC). My experience with data analysis, front-end development, and tools like Splunk and Python has given me a strong foundation to explore security solutions.",
-                    "Applying my technical and practical knowledge to continue grow in Business and Technology. Through my studies at Gokstad Akademiet, I'm building the expertise to help organizations develop secure and compliant systems. Every challenge is an opportunity to grow in this ever-evolving field.",
-                    "I always strive to learn about the newest technologies and frameworks. "
-                ]
-            },
-            "skills": {
-                "title": "skills"
-            },
-            "facts": {
-                "title": "fun-facts",
-                "list": [
-                    "I enjoy fishing in summer", 
-                    "My personality type is ISFJ (The Protector)",
-                    "I love the taste of Coffee + Fried Rice", 
-                    "I enjoy stories/movies about TIME. I suggest 'DARK by Baran bo Odar'."
-                ]
-            }
-        },
-        "contacts": {
-            "description": "How to contact me"
-        }
+    "about": {
+      "description": "Who am i",
+      "about": {
+        "description": [
+          "I am an active learner in cybersecurity, originally from the Philippines and now based in Norway, with a focus on Governance, Risk, and Compliance (GRC). My experience with data analysis, front-end development, and tools like Splunk and Python has given me a strong foundation to explore security solutions.",
+          "Applying my technical and practical knowledge to continue grow in Business and Technology. Through my studies at Gokstad Akademiet, I'm building the expertise to help organizations develop secure and compliant systems. Every challenge is an opportunity to grow in this ever-evolving field.",
+          "I always strive to learn about the newest technologies and frameworks."
+        ]
+      },
+      "skills": {
+        "title": "skills"
+      },
+      "facts": {
+        "title": "fun-facts",
+        "list": [
+          "I enjoy fishing in summer",
+          "My personality type is ISFJ (The Protector)",
+          "I love the taste of Coffee + Fried Rice",
+          "I enjoy stories/movies about TIME. I suggest 'DARK by Baran bo Odar'."
+        ]
+      }
+    },
+    "contacts": {
+      "description": "How to contact me"
     }
+  }
 }
