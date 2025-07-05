@@ -77,6 +77,30 @@
         "skills": {
             "title": "ferdigheter"
         },
+        "certifications": {
+            "title": "Sertifiseringer",
+            "items": [
+                {
+                    "name": "Google Cybersecurity Professional Certificate V2",
+                    "issuedBy": "Coursera",
+                    "certificateUrl": "https://www.credly.com/badges/1944dd3a-00d6-424d-a2da-c9fb93f9debc/print",
+                    "date": "23. juni 2025"
+                },
+                {
+                    "name": "Version Control",
+                    "issuedBy": "Meta / Coursera",
+                    "certificateUrl": "https://coursera.org/verify/FVC4SNY9FH6N",
+                    "date": "28. februar 2023"
+                },
+                {
+                    "name": "Introduction to Front-End Development",
+                    "issuedBy": "Meta / Coursera",
+                    "certificateUrl": "https://coursera.org/verify/U7JZF4B3MHN6",
+                    "date": "12. desember 2022"
+                }
+                
+            ]
+        },
         "facts": {
             "title": "morsomme fakta",
             "list": [
@@ -137,6 +161,29 @@
             },
             "skills": {
                 "title": "ferdigheter"
+            },
+            "certifications": {
+                "title": "Sertifiseringer",
+                "items": [
+                    {
+                        "name": "Google Cybersecurity Professional Certificate V2",
+                        "issuedBy": "Coursera",
+                        "certificateUrl": "https://www.credly.com/badges/1944dd3a-00d6-424d-a2da-c9fb93f9debc/print",
+                        "date": "23. juni 2025"
+                    },
+                    {
+                        "name": "Introduction to Front-End Development",
+                        "issuedBy": "Meta / Coursera",
+                        "certificateUrl": "https://coursera.org/verify/U7JZF4B3MHN6",
+                        "date": "12. desember 2022"
+                    },
+                    {
+                        "name": "Version Control",
+                        "issuedBy": "Meta / Coursera",
+                        "certificateUrl": "https://coursera.org/verify/FVC4SNY9FH6N",
+                        "date": "28. februar 2023"
+                    }
+                ]
             },
             "facts": {
                 "title": "morsomme fakta",
